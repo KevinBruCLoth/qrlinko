@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'cloth';
+    src: url('./../font/cloth.eot?98923231');
+    src: url('./../font/cloth.eot?98923231#iefix') format('embedded-opentype'),
+    url('./../font/cloth.woff2?98923231') format('woff2'),
+    url('./../font/cloth.woff?98923231') format('woff'),
+    url('./../font/cloth.ttf?98923231') format('truetype'),
+    url('./../font/cloth.svg?98923231#cloth-map') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="dashicons-cloth"]:before, [class*=" dashicons-cloth"]:before {
+    font-family: "cloth";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.dashicons-cloth:before {
+    content: '\e800';
+    vertical-align: bottom;
+    margin: 0;
+}
+
+
+.cloth-event_admin-title {
+    /*border : green solid 1px;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.cloth-event_admin-title > i {
+    /*border  : red solid 1px;*/
+    display: table;
+}
+
+.cloth-event_admin-title > i:before {
+    /*border    : blue solid 1px;*/
+    font-size: 2rem;
+    margin-right: .3rem;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+.subscribers_list tr {
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+/*
+.subscribers_list li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    height: .01rem;
+    background-color: grey;
+    width: 100%;
+}
+*/
+
+/*
+.subscribers_list tr:nth-child(2n):before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    background-color: lightgrey;
+    width: 100%;
+}
+*/
+
+.subscribers_list tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+.header_list {
+    position: relative;
+    background-color: black;
+    padding: 1rem 0;
+
+}
+
+/*
+.header_list:before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    margin-bottom: 0;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+*/
+
+.header_list span {
+    color: white !important;
+    font-weight: bold;
+}
+
+/*
+.name, .email, .company, .date, .event, .has_subscribe, .options {
+    min-width: 15rem;
+    margin-right: 3rem;
+    display: inline-block;
+}
+
+ */
+
+.nav-tab-wrapper {
+    border: none !important;
+}
+
+#exportCSV {
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+#exportCSV:hover {
+    opacity: .7;
+}
+
+
+.cloth-error {
+    vertical-align: center;
+    display: inline-block;
+    background-color: #aa0000;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.btn--red {
+    background-color: #e30713;
+    color: #fff;
+}
+
+
+.btn--slant-left {
+    clip-path: polygon(calc(20px) 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.btn {
+    border: 0;
+    background-position: 0 0;
+    display: block;
+    flex: 0 0 auto;
+    padding: .8em .8em .6em 1.6em;
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .05rem;
+    font-weight: 400;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 100%;
+    border-radius: 0;
+    justify-content: center;
+    transition: background-color .25s cubic-bezier(.19, 1, .22, 1) 0s;
+    line-height: 1;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: fit-content;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    animation: l2 2s linear infinite;
+}
+
+.loader:before {
+    content: "Mewsletter Sending..."
+}
+
+@keyframes l2 {
+    to {
+        background-size: 100% 3px
+    }
+}
+
+/* Admin-specific styles */
+.cloth-qrcode-meta-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cloth-qrcode-meta-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cloth-qrcode-meta-box input[type="text"],
+.cloth-qrcode-meta-box input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cloth-qrcode-meta-box .description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+.cloth-qrcode-datepicker {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cloth-qrcode-stats-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.cloth-qrcode-stats-table th,
+.cloth-qrcode-stats-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cloth-qrcode-stats-table th {
+    background-color: #f2f2f2;
+}

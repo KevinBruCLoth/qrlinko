@@ -1,0 +1,7 @@
+{
+    "require": {
+        "endroid/qr-code": "^6.1",
+        "phpoffice/phpspreadsheet": "^5.3",
+        "dasprid/enum": "^1.0"
+    }
+}

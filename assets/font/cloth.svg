@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+    <metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+    <defs>
+        <font id="cloth-map" horiz-adv-x="1000">
+            <font-face font-family="cloth-map" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850"
+                       descent="-150"/>
+            <missing-glyph horiz-adv-x="1000"/>
+            <glyph glyph-name="cloth-map" unicode="&#xe800;"
+                   d="M1047-135h-1032v970h1032v-970l0 0z m-982 50h932v870h-932v-870l0 0z m677 270c0 26 17 45 43 45 25 0 42-19 42-45 0-26-17-45-44-45-24 0-41 19-41 45z m-77 316c-33 33-71 53-115 59v-72c24-6 46-18 65-37 28-28 41-61 41-100 0-38-13-72-41-100-28-27-61-40-99-40-39 0-72 13-100 40-28 28-41 62-41 100 0 39 13 72 41 100 18 18 40 31 63 37v72c-43-7-81-27-113-59-41-42-62-92-62-150 0-58 21-108 62-149 41-41 91-62 150-62 58 0 108 21 149 62 42 41 63 90 63 149 0 58-21 108-63 150z"
+                   horiz-adv-x="1062"/>
+        </font>
+    </defs>
+</svg>
